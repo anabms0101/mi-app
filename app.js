@@ -1,8 +1,0 @@
-cd ~/mi-app
-printf 'node_modules/\n' > .gitignore
-git init -b main
-git add .
-git commit -m "Primera versión: Hello World 2.2"
-git remote add origin git@github.com:anabms0101/mi-app.git
-ssh -T git@github.com
-git push -u origin main
